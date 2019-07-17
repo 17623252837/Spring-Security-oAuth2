@@ -19,6 +19,7 @@
         <!-- 工程模块请随着项目的不断完善自行添加 -->
         <module>Spring-Security-oAuth2-dependencies</module>
         <module>Spring-Security-oAuth2-Server/pm.xml</module>
+        <module>Spring-Security-oAuth2-resource</module>
     </modules>
 
     <properties>
@@ -53,6 +54,9 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+
+
         </dependencies>
     </dependencyManagement>
 

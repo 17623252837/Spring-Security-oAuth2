@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-Security-oAuth2-Server/pm.xml" />
         <option value="$PROJECT_DIR$/Spring-Security-oAuth2-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Security-oAuth2-resource/pom.xml" />
       </list>
     </option>
   </component>
@@ -64,5 +65,16 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8.0_131" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="com.a.a.a.g.d.f">
+    <domainId />
+    <mapperDomain>
+      <pair>
+        <mapper>com.hrh.oauth2.server.service.TbPermissionService</mapper>
+        <method>selectByUserId</method>
+        <domain>com.hrh.oauth2.server.domain.TbPermission</domain>
+      </pair>
+    </mapperDomain>
+    <backquoteDomain />
   </component>
 </project>
