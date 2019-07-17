@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring-Security-oAuth2.iml" filepath="$PROJECT_DIR$/Spring-Security-oAuth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Security-oAuth2-dependencies/Spring-Security-oAuth2-dependencies.iml" filepath="$PROJECT_DIR$/Spring-Security-oAuth2-dependencies/Spring-Security-oAuth2-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Security-oAuth2-Server/spring-security-oauth2-server.iml" filepath="$PROJECT_DIR$/Spring-Security-oAuth2-Server/spring-security-oauth2-server.iml" />
+    </modules>
+  </component>
+</project>
