@@ -11,6 +11,8 @@
     <properties>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <spring-boot-mapper.version>2.1.5</spring-boot-mapper.version>
+        <http-client-version>4.5.5</http-client-version>
+        <gson-version>2.85</gson-version>
     </properties>
     <licenses>
         <license>
@@ -41,7 +43,33 @@
                 <artifactId>mapper-spring-boot-starter</artifactId>
                 <version>${spring-boot-mapper.version}</version>
             </dependency>
+            <!-- Apache Http Begin -->
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${http-client-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>fluent-hc</artifactId>
+                <version>${http-client-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpmime</artifactId>
+                <version>${http-client-version}</version>
+            </dependency>
+            <!-- Apache Http End -->
+            <!-- GSON BEGIN-->
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>${gson-version}</version>
+            </dependency>
+            <!-- GSON END-->
         </dependencies>
+
+
     </dependencyManagement>
 
     <repositories>

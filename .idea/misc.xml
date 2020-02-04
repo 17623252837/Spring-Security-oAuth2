@@ -6,7 +6,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-Security-oAuth2-Server/pm.xml" />
         <option value="$PROJECT_DIR$/Spring-Security-oAuth2-dependencies/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring-Security-oAuth2-resource/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Security-oAuth2-Server-consumer/pom.xml" />
       </list>
     </option>
   </component>
@@ -63,7 +63,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8.0_131" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />
   </component>
   <component name="com.a.a.a.g.d.f">
