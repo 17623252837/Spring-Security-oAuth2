@@ -166,7 +166,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -203,7 +203,7 @@
       <workItem from="1580802521033" duration="4603000" />
       <workItem from="1580813792573" duration="2842000" />
       <workItem from="1580848073657" duration="2742000" />
-      <workItem from="1580882901584" duration="4106000" />
+      <workItem from="1580882901584" duration="4623000" />
     </task>
     <task id="LOCAL-00001" summary="创建服务">
       <created>1563349629255</created>
@@ -219,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580887894976</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加文档">
+      <created>1580888147179</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580888147179</updated>
+    </task>
+    <task id="LOCAL-00004" summary="配置git过滤文件">
+      <created>1580888273359</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580888273359</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +243,9 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="创建服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建服务" />
+    <MESSAGE value="添加文档" />
+    <MESSAGE value="配置git过滤文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置git过滤文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="202" key="#Project_Structure" timestamp="1580759120024">
@@ -252,46 +268,46 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="604" y="407" width="712" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1580759314147" />
-    <state x="353" y="138" key="CommitChangelistDialog2" timestamp="1580888146641">
+    <state x="353" y="138" key="CommitChangelistDialog2" timestamp="1580888272794">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="353" y="138" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580888146641" />
+    <state x="353" y="138" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580888272794" />
     <state x="740" y="298" key="FileChooserDialogImpl" timestamp="1580761009638">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="298" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1580761009638" />
-    <state width="941" height="385" key="GridCell.Tab.0.bottom" timestamp="1580885106347">
+    <state width="941" height="385" key="GridCell.Tab.0.bottom" timestamp="1580888374539">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="941" height="385" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580885106347" />
-    <state width="941" height="385" key="GridCell.Tab.0.center" timestamp="1580885106347">
+    <state width="941" height="385" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580888374539" />
+    <state width="941" height="385" key="GridCell.Tab.0.center" timestamp="1580888374539">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="941" height="385" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580885106347" />
-    <state width="941" height="385" key="GridCell.Tab.0.left" timestamp="1580885106347">
+    <state width="941" height="385" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580888374539" />
+    <state width="941" height="385" key="GridCell.Tab.0.left" timestamp="1580888374539">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="941" height="385" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580885106347" />
-    <state width="941" height="385" key="GridCell.Tab.0.right" timestamp="1580885106347">
+    <state width="941" height="385" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580888374539" />
+    <state width="941" height="385" key="GridCell.Tab.0.right" timestamp="1580888374539">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="941" height="385" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580885106347" />
-    <state width="941" height="385" key="GridCell.Tab.1.bottom" timestamp="1580885106347">
+    <state width="941" height="385" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580888374539" />
+    <state width="941" height="385" key="GridCell.Tab.1.bottom" timestamp="1580888374540">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="941" height="385" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580885106347" />
-    <state width="941" height="385" key="GridCell.Tab.1.center" timestamp="1580885106347">
+    <state width="941" height="385" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580888374540" />
+    <state width="941" height="385" key="GridCell.Tab.1.center" timestamp="1580888374540">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="941" height="385" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580885106347" />
-    <state width="941" height="385" key="GridCell.Tab.1.left" timestamp="1580885106347">
+    <state width="941" height="385" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580888374540" />
+    <state width="941" height="385" key="GridCell.Tab.1.left" timestamp="1580888374540">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="941" height="385" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580885106347" />
-    <state width="941" height="385" key="GridCell.Tab.1.right" timestamp="1580885106347">
+    <state width="941" height="385" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580888374540" />
+    <state width="941" height="385" key="GridCell.Tab.1.right" timestamp="1580888374540">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="941" height="385" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580885106347" />
+    <state width="941" height="385" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580888374540" />
     <state width="944" height="385" key="GridCell.Tab.2.bottom" timestamp="1580805656548">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -312,10 +328,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="463" y="185" width="1277" height="709" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1580758620332" />
-    <state x="552" y="276" key="Vcs.Push.Dialog.v2" timestamp="1580888149411">
+    <state x="552" y="276" key="Vcs.Push.Dialog.v2" timestamp="1580888280094">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1580888149411" />
+    <state x="552" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1580888280094" />
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1580815286553">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
