@@ -13,9 +13,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
  * @ProjectName: Spring-Security-oAuth2
  * @Package: com.hrh.oauth2.server.config
  * @ClassName: WebSecurityConfiguration
- * @Author: break
+ * @Author: HuRonghua
  * @Description:
- * @Date: 2019/7/17 0017 下午 15:58
+ * @Date: 2020/2/4 0017 下午 15:58
  * @Version: 1.0
  */
 @Configuration
