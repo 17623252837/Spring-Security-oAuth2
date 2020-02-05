@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="977423de-f776-408c-811d-0f46c7c7209f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Security-oAuth2-Server/src/main/java/com/hrh/oauth2/server/OAuth2ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Security-oAuth2-Server/src/main/java/com/hrh/oauth2/server/OAuth2ServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Security-oAuth2-Server/src/main/java/com/hrh/oauth2/server/config/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Security-oAuth2-Server/src/main/java/com/hrh/oauth2/server/config/WebSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +203,7 @@
       <workItem from="1580802521033" duration="4603000" />
       <workItem from="1580813792573" duration="2842000" />
       <workItem from="1580848073657" duration="2742000" />
-      <workItem from="1580882901584" duration="3861000" />
+      <workItem from="1580882901584" duration="4106000" />
     </task>
     <task id="LOCAL-00001" summary="创建服务">
       <created>1563349629255</created>
@@ -213,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563349629255</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="创建服务">
+      <created>1580887894976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580887894976</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,10 +252,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="604" y="407" width="712" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1580759314147" />
-    <state x="353" y="138" key="CommitChangelistDialog2" timestamp="1580851011568">
+    <state x="353" y="138" key="CommitChangelistDialog2" timestamp="1580887894337">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="353" y="138" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580851011568" />
+    <state x="353" y="138" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580887894337" />
     <state x="740" y="298" key="FileChooserDialogImpl" timestamp="1580761009638">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -306,10 +312,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="463" y="185" width="1277" height="709" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1580758620332" />
-    <state x="552" y="276" key="Vcs.Push.Dialog.v2" timestamp="1580851014687">
+    <state x="552" y="276" key="Vcs.Push.Dialog.v2" timestamp="1580887897311">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1580851014687" />
+    <state x="552" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1580887897311" />
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1580815286553">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
