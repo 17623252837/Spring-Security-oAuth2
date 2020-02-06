@@ -24,6 +24,6 @@ tips:客户端必须得到用户的授权（authorization grant），才能获�
 |Spring-Security-oAuth2|pom|否|否|无|案例工程|
 |Spring-Security-oAuth2-dependencies|module|否|否|无|依赖管理|
 |Spring-security-oauth2-server|module|是|否|8080|内存存储令牌|
-|Spring-security-oauth2-server-jdbc|module|是|否|8081|JDBC存储令牌|
-|Spring-security-oauth2-server-rbac|module|是|否|8082|RBAC|
+|Spring-security-oauth2-server-jdbc|module|是|否|8080|JDBC存储令牌|
+|Spring-security-oauth2-server-rbac|module|是|否|8080|RBAC|
 |Spring-security-oauth2-server-consumer|module|是|否|8090|结果处理服务|
