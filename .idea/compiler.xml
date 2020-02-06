@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-security-oauth2-Server-consumer" />
         <module name="spring-security-oauth2-server" />
+        <module name="Spring-security-oauth2-server-jdbc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,12 +18,14 @@
       <module name="spring-security-oauth2-resource" target="1.8" />
       <module name="spring-security-oauth2-server" target="1.8" />
       <module name="Spring-security-oauth2-Server-consumer" target="1.8" />
+      <module name="Spring-security-oauth2-server-jdbc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-security-oauth2-Server-consumer" options="-parameters" />
       <module name="Spring-security-oauth2-common" options="-parameters" />
+      <module name="Spring-security-oauth2-server-jdbc" options="-parameters" />
       <module name="spring-security-oauth2-resource" options="-parameters" />
       <module name="spring-security-oauth2-server" options="-parameters" />
     </option>

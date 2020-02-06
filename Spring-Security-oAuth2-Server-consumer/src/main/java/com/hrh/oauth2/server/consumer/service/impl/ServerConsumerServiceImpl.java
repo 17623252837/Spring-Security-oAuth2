@@ -4,7 +4,6 @@ import com.hrh.oauth2.server.consumer.common.HttpClientUtils;
 import com.hrh.oauth2.server.consumer.service.ServerConsumerService;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
-import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,8 +17,8 @@ import java.util.List;
  * @Date: 2020/2/5 5:07
  * @Version: 1.0
  */
-@Service
 public class ServerConsumerServiceImpl implements ServerConsumerService {
+
     @Override
     public String getToken(String code) {
         List<NameValuePair> nvps = new ArrayList<NameValuePair>();

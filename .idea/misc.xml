@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/Spring-Security-oAuth2-Server/pm.xml" />
         <option value="$PROJECT_DIR$/Spring-Security-oAuth2-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-Security-oAuth2-Server-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-security-oauth2-server-jdbc/pom.xml" />
       </list>
     </option>
   </component>

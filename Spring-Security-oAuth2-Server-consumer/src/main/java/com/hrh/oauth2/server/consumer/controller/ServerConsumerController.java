@@ -1,12 +1,18 @@
 package com.hrh.oauth2.server.consumer.controller;
 
+import com.hrh.oauth2.server.consumer.common.HttpClientUtils;
 import com.hrh.oauth2.server.consumer.dto.BaseResult;
-import com.hrh.oauth2.server.consumer.service.ServerConsumerService;
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @ProjectName: Spring-Security-oAuth2
@@ -22,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ServerConsumerController {
 
     @Autowired
-    private ServerConsumerService serverConsumerService;
+    private HttpClientUtils httpClientUtils;
     /**
      *
      * @param code 验证码
@@ -39,7 +45,11 @@ public class ServerConsumerController {
      * @return 结果集
      */
     @GetMapping("token/{code}")
-    public String getToken(@PathVariable String code) {
-        return serverConsumerService.getToken(code);
+    public String getToken(@PathVariable String code) throws IOException {
+        List<NameValuePair> nvps = new ArrayList<NameValuePair>();
+        nvps.add(new BasicNameValuePair("grant_type", "authorization_code"));
+        nvps.add(new BasicNameValuePair("code", code));
+        String s = HttpClientUtils.httpPost("http://client:secret@localhost:8080/oauth/token", nvps);
+        return s;
     }
 }

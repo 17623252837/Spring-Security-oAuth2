@@ -20,6 +20,7 @@
         <module>Spring-Security-oAuth2-dependencies</module>
         <module>Spring-Security-oAuth2-Server/pm.xml</module>
         <module>Spring-Security-oAuth2-Server-consumer</module>
+        <module>Spring-security-oauth2-server-jdbc</module>
     </modules>
 
     <properties>
